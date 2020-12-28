@@ -7,10 +7,19 @@ const generateTarget = () => {
   return Math.floor(Math.random() * 10);
 }
 
+const getAbsoluteDistance = (x, y) => {
+  return Math.abs(x - y);
+}
+
 const compareGuesses = (userGuess, computerGuess, target) => {
-  userDifference = Math.abs(userGuess - target);
-  computerDifference = Math.abs(computerGuess - target);
-  return (userDifference <= computerDifference) ? true : false;
+  if (userGuess < 0 || userGuess > 9) {
+    alert('Your number is out of range!');
+    return undefined;
+  } else {
+    userDifference = getAbsoluteDistance(userGuess, target);
+    computerDifference = getAbsoluteDistance(computerGuess, target);
+    return (userDifference <= computerDifference) ? true : false;
+  }
 }
 
 const updateScore = (winner) => {
