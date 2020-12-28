@@ -2,7 +2,7 @@
 
 This repository is a simple number guesser game with the application of HTML, CSS and JavaScript. All the source code was given by [Codecademy](https://www.codecademy.com).
 
-This repository created to complete the task of the chapter codecademy. My contribution just on JavaScript code with the name [script.js](./script.js).
+This repository created to complete the task of Codecademy chapter. My contribution just on JavaScript code with a file name [script.js](./script.js).
 
 Feel free to clone and code it by your self to learn more about JavaScript.
 
@@ -15,8 +15,7 @@ Also, visit my [gitlab account](https://www.gitlab.com/ridhanf) and [HackerRank 
 Thanks.
 
 
-
-Best regards,
+Sincerely,
 
 Ridhan Fadhilah, S.T.
 
